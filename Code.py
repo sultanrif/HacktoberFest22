@@ -1,4 +1,4 @@
-from pickle import GLOBAL #importing pickle module for searilising and desearilising objects.
+imprt from pickle import GLOBAL #importing pickle module for searilising and desearilising objects.
 import tkinter as tk #importing tkinter for using graphical user interface in python.
 from PIL import ImageTk,Image #imported ImageTk and Image for adding images in tkinter window.
 win=tk.Tk() #Creating a new window in tkinter
@@ -454,7 +454,7 @@ def start(): #function that starts the whole program system.
                 Okay_button=tk.Button(win,text="OK✓",bg="Lightgreen",font=("Algerian",15),command=Okay)
                 Okay_button.grid(row=1,column=1)
         T_button=tk.Button(win,text="Total",bg="Lightgreen",font=("Algerian",15),command=Total)
-        T_button.grid(row=7,column=1)
+        T_button.grid(row=7,column=1) #sample data
         def Okay():
             win.destroy()
         Okay_button=tk.Button(win,text="Close",bg="Red",fg="white",font=("Algerian",15),command=Okay)
